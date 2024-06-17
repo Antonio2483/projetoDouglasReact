@@ -1,0 +1,46 @@
+.card-grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* gap: 5px; */
+}
+
+.char-container{
+    display: flex;
+}
+
+.char-img{
+    width: 100%;
+}
+
+.tabcontent {
+    display: none;
+    padding: 0 20px 0 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilo para os botões das abas */
+.tablink {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tablink.active {
+    background-color: blue;
+    /* Cor para o botão ativo */
+}
+
+.tabcontent h3{
+    margin-bottom: 0;
+}

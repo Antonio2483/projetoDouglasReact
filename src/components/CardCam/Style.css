@@ -1,0 +1,17 @@
+.card-cam {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-cam img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.card-cam-content {
+    padding: 20px;
+    flex-grow: 1;
+}

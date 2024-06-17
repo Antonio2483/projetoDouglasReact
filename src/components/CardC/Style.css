@@ -1,0 +1,99 @@
+.card-cone {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #333;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.td-status{
+    text-align: right;
+}
+
+.card-cone-center{
+    text-align: center;
+}
+
+.card-cone-center p, .card-cone-center h4{
+    margin: 0 auto;
+}
+
+.card-cone:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.status-container {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.status-img {
+    width: 30%;
+    height: auto;
+}
+
+.status-img img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.status-table {
+    width: 70%;
+    padding-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+.container-cone {
+    padding: 2px 16px;
+    width: 100%;
+}
+
+.title,
+.path,
+.ability-name,
+.ability-desc {
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+}
+
+.path img{
+    width: 30px;
+}
+
+.caminho-texto{
+    /* background-color: blue; */
+    margin-left: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.caminho-texto p {
+    margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.container-main {
+    border: 5px solid #666;
+    background-color: transparent;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 75;
+    margin: 10px;
+}
