@@ -24,6 +24,30 @@ const Caminhos = () => (
         >
             Aplica melhorias em aliados para aprimorar as capacidades de combate da equipe.
         </CardC>
+        <CardC 
+        img="/imagens/Caminho_Caca.webp"
+        nome="A Caça"
+        >
+            Causa uma quantidade extraordinária de dano a um único alvo. A melhor maneira de causar dano a inimigos de Elite.
+        </CardC>
+        <CardC 
+        img="/imagens/Caminho_Erudicao.png"
+        nome="A Erudição"
+        >
+            Causa um poderoso dano a vários alvos. A melhor maneira de causar dano a grupos de inimigos.
+        </CardC> 
+        <CardC 
+        img="/imagens/Caminho_Preservacao.webp"
+        nome="A Preservação"
+        >
+            Possui habilidades defensivas poderosas para proteger aliados de muitas formas.
+        </CardC>
+        <CardC 
+        img="/imagens/Caminho_Abundancia.png"
+        nome="A Abundância"
+        >
+            Cura aliados e restaura PV da equipe.
+        </CardC>
     </div>
 );
 

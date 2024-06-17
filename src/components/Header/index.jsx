@@ -5,7 +5,7 @@ import './Style.css';
 const Header = ()  => (
         <header>
             <div className="logo">
-                <Link to="/">Honkai Star Rail</Link>
+                <Link to="/">Honkai: Star Rail</Link>
             </div>
             <nav>
                 <ul>

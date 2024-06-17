@@ -48,6 +48,22 @@ const Cones = () => (
             >
                 Quando o usuário usa a sua Perícia, o próximo aliada a agir(exceto o próprio usuário) causa 16% a mais de Dano por 1 rodada.
             </CardC>
+            <CardC
+                img="/imagens/Ao_Longo_da_Margem_Transitoria.webp" 
+                nome="Ao Longo da Margem Transitória"
+                raridade="&#9733;&#9733;&#9733;&#9733;&#9733;"
+                caminho="A Inexistência"
+                imgCaminho="/imagens/Caminho_inexistencia.webp" 
+                pv="1058"
+                atq="635"
+                def="396"
+                passiva="Navegante"
+            >
+                Aumenta o Dano CRIT do usuário em 36%. 
+                Quando o usuário atinge um inimigo-alvo, inflige Bolhas Vazias ao inimigo, durando por 1 rodada. 
+                Este efeito pode ser acionado 1 vez contra cada alvo para cada ataque que o usuário realizar. 
+                O usuário causa 24% a mais de Dano aos alvos afligidos por Bolhas Vazias, e o Dano da Perícia Suprema do usuário é aumentado adicionalmente em 24%.
+            </CardC>
             
         </div>
     </div>

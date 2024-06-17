@@ -12,6 +12,8 @@ import Caminhos from '../../Pages/CaminhosPage/index.jsx';
 
 import Kafka from '../../Pages/PersonagensPage/kafka.jsx';
 import Cisne from '../../Pages/PersonagensPage/cisneNegro.jsx';
+import Acheron from '../../Pages/PersonagensPage/acheron.jsx';
+import Sparkle from '../../Pages/PersonagensPage/sparkle.jsx';
 
 export default function Rotas() {
     return(
@@ -27,6 +29,8 @@ export default function Rotas() {
             {/* Personagens */}
             <Route path="/personagens/kafka" element={<Kafka/>} />
             <Route path="/personagens/cisne-negro" element={<Cisne/>} />
+            <Route path="/personagens/acheron" element={<Acheron/>} />
+            <Route path="/personagens/sparkle" element={<Sparkle/>} />
         </Routes>
     </BrowserRouter>
     );
