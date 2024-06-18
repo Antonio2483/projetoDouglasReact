@@ -1,22 +1,16 @@
 import React from "react";
 import Header from "../../components/Header"
+import "./Style.css"
+
 
 
 const Home = () => (
     <div>
         <Header />
-        <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '100vh'
-        }}><img src="/imagens/Honkai_Logo.webp" alt="Honkai: Star Rail" /></div>
-        <div>
-            <h1 style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-            }}>Bem Vindo ao Expresso Astral!</h1>
+        <div className="home-img">
+            <img src="/imagens/Honkai_Logo.webp" alt="Honkai: Star Rail" /></div>
+        <div className="home-texto">
+            <h1>Bem Vindo ao Expresso Astral!</h1>
             <p>"Honkai: Star Rail" é um jogo eletrônico de RPG desenvolvido pela HoYoverse (anteriormente conhecida como miHoYo),
                 a mesma empresa por trás de "Genshin Impact". Lançado em 2023, o jogo combina elementos de estratégia e
                 combate por turnos com uma narrativa envolvente e rica em detalhes.</p>
@@ -31,11 +25,9 @@ const Home = () => (
             </p><br />
             <a href="https://hsr.hoyoverse.com/pt-pt/" target="_blank" rel="noopener noreferrer"><button>Site Oficial</button></a>
         </div>
-        <img src="/imagens/Herta_Kuru.gif" alt="Herta KURU KURU" style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-        }} />
+        <div className="home-herta-img">
+            <img src="/imagens/Herta_Kuru.gif" alt="Herta KURU KURU" />
+        </div>
     </div>
 );
 

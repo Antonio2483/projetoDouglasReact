@@ -1,0 +1,22 @@
+.home-img{
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    height: '100vh';
+}
+
+.home-texto{
+    padding: 0 10px 0 10px;
+}
+
+.home-texto h1{
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+}
+
+.home-herta-img{
+    width: 100%;
+    justify-items: 'center';
+    align-items: 'center';
+}
