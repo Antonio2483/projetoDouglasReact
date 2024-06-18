@@ -1,22 +1,40 @@
 .home-img{
-    display: 'flex';
-    justify-content: 'center';
-    align-items: 'center';
-    height: '100vh';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .home-texto{
+    width: 50%;
     padding: 0 10px 0 10px;
 }
 
+.grid-container{
+    display: grid;
+    place-items: center;
+}
+
+
+
 .home-texto h1{
-    display: 'flex';
-    justify-content: 'center';
-    align-items: 'center';
+    display: flex;
+    text-align: justify;
+    text-justify: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-center{
+    text-align: center;
+    text-justify: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-herta-img{
-    width: 100%;
-    justify-items: 'center';
-    align-items: 'center';
+    width: 35%;
+    justify-content: center;
+    justify-items: justify;
+    align-items: center;
 }
