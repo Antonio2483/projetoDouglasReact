@@ -34,7 +34,7 @@ export default function Sparkle(){
         <Header />
         <div className="char-container">
             <ContainerSide>
-                <img src="/imagens/sparkle_card.webp" alt="Kafka" className="char-img" />
+                <img src="/imagens/sparkle_card.webp" alt="Sparkle" className="char-img" />
                 <CharTable 
                     nome="Sparkle"
                     frase="Esplendor Reluzente"
