@@ -57,7 +57,7 @@ export default function Sparkle(){
                 <div id="tab1" className="tabcontent" style={{display:"block"}}>
                 <h3>Monodrama</h3>
                 [Alvo Único]
-                <p>Causa Dano Quântico igual a 50% do ATQ de Sparkle a um único inimigo-alvo</p>
+                <p>Causa Dano Quântico médio, escalando com o ATQ de Sparkle a um único inimigo-alvo</p>
                 </div>
 
                 <div id="tab2" className="tabcontent" style={{display:"none"}}>
@@ -65,7 +65,7 @@ export default function Sparkle(){
                 [Suporte]<br/>
                 Custo de Pontos de Perícia: 1
 
-                <p>Aumenta o Dano de CRIT de um único aliado-alvo em 12% do Dano CRIT de Sparkle + 27% por 1 rodada. E ao mesmo tempo, Avança Adiante a ação deste aliado em 50%. </p>
+                <p>Aumenta o Dano de CRIT de um único aliado-alvo um pouco, em relação ao do Dano CRIT de Sparkle + uma baixa porcentagem por 1 rodada. E ao mesmo tempo, Avança Adiante a ação deste aliado em uma chance média. </p>
                 <p>Quando Sparkle usa essa habilidade em si, sua ação não será Avançada Adiante.</p>
                 </div>
 
@@ -74,13 +74,13 @@ export default function Sparkle(){
                 [Suporte]<br />
                 Custo de Energia: 120
                 <p>Recupera 4 pontos de Perícia para a equipe e concede Criptografia a todos os aliados.</p>
-                <p>Quando aliados em Criptografia ativam o efeito de Bônus de Dano concedido pelo Talento de Sparkle, cada acúmulo aumento adicionalmente seu efeito em 6,0%, durando por 2 rodadas.</p>
+                <p>Quando aliados em Criptografia ativam o efeito de Bônus de Dano concedido pelo Talento de Sparkle, cada acúmulo aumento adicionalmente seu efeito em uma chance baixa, durando por 2 rodadas.</p>
                 </div>
 
                 <div id="tab4" className="tabcontent" style={{display:"none"}}>
                 <h3>Pista Falsa</h3>
                 [Suporte]
-                <p>Enquanto Sparkle estiver no campo de batalha, aumenta adicionalmente o número máximo de Pontos de Perícia em 2. Sempre que um aliado consome 1 Ponto de Perícia, o Dano causado por todos os aliados será aumentado em 3%.</p>
+                <p>Enquanto Sparkle estiver no campo de batalha, aumenta adicionalmente o número máximo de Pontos de Perícia em 2. Sempre que um aliado consome 1 Ponto de Perícia, o Dano causado por todos os aliados será aumentado em uma chance baixa.</p>
                 <p>Este efeito dura por 2 Rodadas e pode ser acumulado até 3 vezes.</p>
                 </div>
 
